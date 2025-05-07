@@ -1,0 +1,141 @@
+#header{
+    position: sticky;
+    top: 0;
+    background: rgba(91, 91, 91, 0.195);
+    z-index: 1;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 10px 0px 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    z-index: 1;
+}
+.navbar-container img{
+    width: 100%;
+    height: 35px;
+}
+
+
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+.nav-links li{
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #ffffff;
+    position: relative;
+    padding: 0 10px;
+}
+
+.nav-links a::after{
+    content: '';
+    position: absolute;
+    background-color: #ffffff;
+    height: 3px;
+    width: 0    ;
+    padding: 0;
+    bottom: -10px;
+    left: 0;
+    transition: 0.3s;
+}
+
+.nav-links a:hover::after{
+    width: 100%;
+}
+.menu-btn {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #ffffff;
+  }
+  
+  .menu-toggle {
+    display: none;
+  }
+
+  @media only screen and (max-width: 320px) {
+    .nav-links {
+      display: none;
+      width: 100%;
+      flex-direction: column;
+      position: absolute;
+      background: #000000;
+      height: 100vh;
+      margin-top: 50px;
+      gap: 60px;
+    }
+  
+    .menu-btn {
+      display: flex;
+    }
+  
+    .menu-toggle:checked~.nav-links {
+      display: flex;
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+    .nav-links {
+      display: none;
+      width: 100%;
+      flex-direction: column;
+      position: absolute;
+      background: #000000;
+      height: 100vh;
+      top: 100px;
+      gap: 60px;
+    }
+  
+    .menu-btn {
+      display: flex;
+    }
+  
+    .menu-toggle:checked~.nav-links {
+      display: flex;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .nav-links {
+      display: none;
+      width: 100%;
+      flex-direction: column;
+      position: absolute;
+      background: #000000;
+      height: 100vh;
+      top: 100px;
+      left: 0;
+      bottom: 0;
+      gap: 50px;
+    }
+  
+    .menu-btn {
+      display: flex;
+    }
+  
+    .menu-toggle:checked~.nav-links {
+      display: flex;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .navbar {
+      padding: 24px 24px;
+    }
+    .nav-links{
+        gap: 100px;
+    }
+  }

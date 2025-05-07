@@ -1,0 +1,30 @@
+/* REUSEABLES */
+@import 'button.css';
+@import 'product-card.css';
+@import 'banner.css';
+/* SECTIONS */
+@import 'navbar.css';
+@import 'section1.css';
+@import 'section2.css';
+@import 'section3.css';
+@import 'shopstyle.css';
+@import 'whats-new.css';
+@import 'vomero.css';
+@import 'basketball.css';
+@import 'jordans.css';
+@import 'footer.css';
+
+@font-face {
+    font-family: 'bebas-nue';
+    src: url(./BebasNeue-Regular.ttf);
+  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    background-color: #000;
+    font-family: 'bebas-nue';
+  }

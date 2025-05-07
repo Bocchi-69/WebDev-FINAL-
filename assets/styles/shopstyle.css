@@ -1,0 +1,545 @@
+/* SECTION 1 */
+@font-face {
+    font-family: 'poppins';
+    src: url(./Poppins-SemiBold.ttf);
+}
+#shop-section1{
+    padding: 2rem;
+    animation: background1 20s infinite;
+}
+
+.slider1 img{
+    background-color: black;
+    flex: 1 0 100%;
+    object-fit: contain;
+    scroll-snap-align: start;
+    overflow-x: hidden;
+    animation: slide1 20s infinite;
+}
+.slider-wrapper1{
+    position: relative;
+    max-width: 48rem;
+    margin: 5rem auto;
+}
+.slider1{
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 0.5rem;
+    scrollbar-width: none;
+    border: 1px solid #3e3e3e1b;
+    margin: 1rem auto;
+}
+.title{
+    color: #ffffffd3;
+    text-align: center;
+    font-size: 6rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+.description{
+    font-weight: 100;
+    font-family: 'poppins';
+    font-size: 2rem;
+    color: #ffffffd3;
+    text-align: center;
+}
+@media only screen and (max-width: 370px){
+    .name{
+        display: none;
+    }
+}
+@media only screen and (max-width: 517px){
+    .name{
+        font-size: 1rem;
+    }
+}
+/* SECTION 1 ANIMATIONS */
+@keyframes slide1{
+    0%{
+        transform: translateX(0);
+        background-image: linear-gradient(to left top, #7f7554 20%,#fff2c6);
+    }
+    16%{
+        transform: translateX(0);
+        background-image: linear-gradient(to left top, #7f7554 20%,#fff2c6);
+    }
+    20%{
+        transform: translateX(-100%);
+        background-image: linear-gradient(to left top, #6f421f 20%,#ff6f00);
+    }
+    36%{
+        transform: translateX(-100%);
+        background-image: linear-gradient(to left top, #6f421f 20%,#ff6f00);
+    }
+    40%{
+        transform: translateX(-200%);
+        background-image: linear-gradient(to left top, #355c19 20%,#6ee300);
+    }
+    56%{
+        transform: translateX(-200%);
+        background-image: linear-gradient(to left top, #355c19 20%,#6ee300);
+    }
+    60%{
+        transform: translateX(-300%);
+        background-image: linear-gradient(to left top, #195c5a 20%,#00e3c5);
+    }
+    76%{
+        transform: translateX(-300%);
+        background-image: linear-gradient(to left top, #195c5a 20%,#00e3c5);
+    }
+    80%{
+        transform: translateX(-400%);
+        background-image: linear-gradient(to left top, #636363 20%,#ffffff);
+    }
+    96%{
+        transform: translateX(-400%);
+        background-image: linear-gradient(to left top, #636363 20%,#ffffff);
+    }
+    100%{
+        transform: translateX(0);
+        background-image: linear-gradient(to left top, #7f7554 20%,#fff2c6);
+    }
+}
+
+@keyframes background1{
+    0%{
+        background-image: linear-gradient(to left top, #7f7554 20%,#fff2c6);
+    }
+    16%{
+        background-image: linear-gradient(to left top, #7f7554 20%,#fff2c6);
+    }
+    20%{
+        background-image: linear-gradient(to left top, #6f421f 20%,#ff6f00);
+    }
+    36%{
+        background-image: linear-gradient(to left top, #6f421f 20%,#ff6f00);
+    }
+    40%{
+        background-image: linear-gradient(to left top, #355c19 20%,#6ee300);
+    }
+    56%{
+        background-image: linear-gradient(to left top, #355c19 20%,#6ee300);
+    }
+    60%{
+        background-image: linear-gradient(to left top, #195c5a 20%,#00e3c5);
+    }
+    76%{
+        background-image: linear-gradient(to left top, #195c5a 20%,#00e3c5);
+    }
+    80%{
+        background-image: linear-gradient(to left top, #636363 20%,#ffffff);
+    }
+    96%{
+        background-image: linear-gradient(to left top, #636363 20%,#ffffff);
+    }
+    100%{
+        background-image: linear-gradient(to left top, #7f7554 20%,#fff2c6);
+    }
+}
+
+/* SECTION 2 */
+#shop-section2{
+    padding: 2rem;
+    animation: background2 20s infinite;
+}
+
+.slider2 img{
+    background-color: black;
+    flex: 1 0 100%;
+    object-fit: contain;
+    scroll-snap-align: start;
+    overflow-x: hidden;
+    animation: slide2 20s infinite;
+}
+.title2{
+    color: #ffffffd3;
+    text-align: center;
+    font-size: 6rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.slider-wrapper2{
+    position: relative;
+    max-width: 48rem;
+    margin: 5rem auto;
+}
+.slider2{
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 0.5rem;
+    scrollbar-width: none;
+    border: 1px solid #3e3e3e1b;
+    margin: 1rem auto;
+}
+
+.description2{
+    font-weight: 100;
+    font-family: 'poppins';
+    font-size: 4rem;
+    color: #ffffffd3;
+    text-align: center;
+}
+/* SECTION 2 ANIMATIONS */
+@keyframes slide2{
+    0%{
+        transform: translateX(0);
+        background-image: linear-gradient(to left top, #e63333 20%,#f698ae);
+    }
+    16%{
+        transform: translateX(0);
+        background-image: linear-gradient(to left top, #e63333 20%,#f698ae);
+    }
+    20%{
+        transform: translateX(-100%);
+        background-image: linear-gradient(to left top, #c66f2d 20%,#b6ec6a);
+    }
+    36%{
+        transform: translateX(-100%);
+        background-image: linear-gradient(to left top, #c66f2d 20%,#b6ec6a);
+    }
+    40%{
+        transform: translateX(-200%);
+        background-image: linear-gradient(to left top, #373737 20%,#000000);
+    }
+    56%{
+        transform: translateX(-200%);
+        background-image: linear-gradient(to left top, #373737 20%,#000000);
+    }
+    60%{
+        transform: translateX(-300%);
+        background-image: linear-gradient(to left top, #e63333 20%,#f698ae);
+    }
+    76%{
+        transform: translateX(-300%);
+        background-image: linear-gradient(to left top, #e63333 20%,#f698ae);
+    }
+    80%{
+        transform: translateX(-400%);
+        background-image: linear-gradient(to left top, #bababa 20%,#183a1f);
+    }
+    96%{
+        transform: translateX(-400%);
+        background-image: linear-gradient(to left top, #bababa 20%,#183a1f);
+    }
+    100%{
+        transform: translateX(0);
+        background-image: linear-gradient(to left top, #e63333 20%,#f698ae);
+    }
+}
+
+@keyframes background2{
+    0%{
+        background-image: linear-gradient(to left top, #e63333 20%,#f698ae);
+    }
+    16%{
+        background-image: linear-gradient(to left top, #e63333 20%,#f698ae);
+    }
+    20%{
+        background-image: linear-gradient(to left top, #c66f2d 20%,#b6ec6a);
+    }
+    36%{
+        background-image: linear-gradient(to left top, #c66f2d 20%,#b6ec6a);
+    }
+    40%{
+        background-image: linear-gradient(to left top, #373737 20%,#000000);
+    }
+    56%{
+        background-image: linear-gradient(to left top, #373737 20%,#000000);
+    }
+    60%{
+        background-image: linear-gradient(to left top, #e63333 20%,#f698ae);
+    }
+    76%{
+        background-image: linear-gradient(to left top, #e63333 20%,#f698ae);
+    }
+    80%{
+        background-image: linear-gradient(to left top, #bababa 20%,#183a1f);
+    }
+    96%{
+        background-image: linear-gradient(to left top, #bababa 20%,#183a1f);
+    }
+    100%{
+        background-image: linear-gradient(to left top, #e63333 20%,#f698ae);
+    }
+}
+
+/* SECTION 3 */
+#shop-section3{
+    padding: 2rem;
+    animation: background3 20s infinite;
+}
+.title3{
+    color: #ffffffd3;
+    text-align: center;
+    font-size: 6rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+.slider3 img{
+    background-color: black;
+    flex: 1 0 100%;
+    object-fit: contain;
+    scroll-snap-align: start;
+    overflow-x: hidden;
+    animation: slide3 20s infinite;
+}
+.title2{
+    color: #ffffffd3;
+    text-align: center;
+    font-size: 6rem;
+    margin-bottom: 1rem;
+    font-weight: 200;
+}
+.slider-wrapper3{
+    position: relative;
+    max-width: 48rem;
+    margin: 5rem auto;
+}
+.slider3{
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 0.5rem;
+    scrollbar-width: none;
+    border: 1px solid #3e3e3e1b;
+    margin: 1rem auto;
+}
+
+.description3{
+    font-weight: 100;
+    font-family: 'poppins';
+    font-size: 4rem;
+    color: #ffffffd3;
+    text-align: center;
+}
+/* SECTION 3 ANIMATIONS */
+@keyframes slide3{
+    0%{
+        transform: translateX(0);
+        background-image: linear-gradient(to left top, #000000 20%,#434343);
+    }
+    16%{
+        transform: translateX(0);
+        background-image: linear-gradient(to left top, #000000 20%,#434343);
+    }
+    20%{
+        transform: translateX(-100%);
+        background-image: linear-gradient(to left top, #b8b7b7 20%,#ffffff);
+    }
+    36%{
+        transform: translateX(-100%);
+        background-image: linear-gradient(to left top, #b8b7b7 20%,#ffffff);
+    }
+    40%{
+        transform: translateX(-200%);
+        background-image: linear-gradient(to left top, #b8b7b7 20%,#ffffff);
+    }
+    56%{
+        transform: translateX(-200%);
+        background-image: linear-gradient(to left top, #b8b7b7 20%,#ffffff);
+    }
+    60%{
+        transform: translateX(-300%);
+        background-image: linear-gradient(to left top, #9b8f81 20%,#555f4f);
+    }
+    76%{
+        transform: translateX(-300%);
+        background-image: linear-gradient(to left top, #9b8f81 20%,#555f4f);
+    }
+    80%{
+        transform: translateX(-400%);
+        background-image: linear-gradient(to left top, #bababa 20%,#a65b55);
+    }
+    96%{
+        transform: translateX(-400%);
+        background-image: linear-gradient(to left top, #bababa 20%,#a65b55);
+    }
+    100%{
+        transform: translateX(0);
+        background-image: linear-gradient(to left top, #000000 20%,#434343);
+    }
+}
+
+@keyframes background3{
+    0%{
+        background-image: linear-gradient(to left top, #000000 20%,#434343);
+    }
+    16%{
+        background-image: linear-gradient(to left top, #000000 20%,#434343);
+    }
+    20%{
+        background-image: linear-gradient(to left top, #b8b7b7 20%,#ffffff);
+    }
+    36%{
+        background-image: linear-gradient(to left top, #b8b7b7 20%,#ffffff);
+    }
+    40%{
+        background-image: linear-gradient(to left top, #b8b7b7 20%,#ffffff);
+    }
+    56%{
+        background-image: linear-gradient(to left top, #b8b7b7 20%,#ffffff);
+    }
+    60%{
+        background-image: linear-gradient(to left top, #9b8f81 20%,#555f4f);
+    }
+    76%{
+        background-image: linear-gradient(to left top, #9b8f81 20%,#555f4f);
+    }
+    80%{
+        background-image: linear-gradient(to left top, #bababa 20%,#a65b55);
+    }
+    96%{
+        background-image: linear-gradient(to left top, #bababa 20%,#a65b55);
+    }
+    100%{
+        background-image: linear-gradient(to left top, #000000 20%,#434343);
+    }
+}
+
+/* SECTION 4 */
+#shop-section4{
+    padding: 2rem;
+    animation: background4 20s infinite;
+}
+.title4{
+    color: #ffffffd3;
+    text-align: center;
+    font-size: 6rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+.slider4 img{
+    background-color: black;
+    flex: 1 0 100%;
+    object-fit: contain;
+    scroll-snap-align: start;
+    overflow-x: hidden;
+    animation: slide4 20s infinite;
+}
+.title4{
+    color: #ffffffd3;
+    text-align: center;
+    font-size: 6rem;
+    margin-bottom: 1rem;
+    font-weight: 200;
+}
+.slider-wrapper4{
+    position: relative;
+    max-width: 48rem;
+    margin: 5rem auto;
+}
+.slider4{
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 0.5rem;
+    scrollbar-width: none;
+    border: 1px solid #3e3e3e1b;
+    margin: 1rem auto;
+}
+
+.description4{
+    font-weight: 100;
+    font-family: 'poppins';
+    font-size: 4rem;
+    color: #ffffffd3;
+    text-align: center;
+}
+/* SECTION 4 ANIMATION */
+@keyframes slide4{
+    0%{
+        transform: translateX(0);
+        background-image: linear-gradient(to left top, #125282 20%,#cec8ff);
+    }
+    16%{
+        transform: translateX(0);
+        background-image: linear-gradient(to left top, #125282 20%,#cec8ff);
+    }
+    20%{
+        transform: translateX(-100%);
+        background-image: linear-gradient(to left top, #e2c0a7 20%,#ffffff);
+    }
+    36%{
+        transform: translateX(-100%);
+        background-image: linear-gradient(to left top, #e2c0a7 20%,#ffffff);
+    }
+    40%{
+        transform: translateX(-200%);
+        background-image: linear-gradient(to left top, #b8b7b7 20%,#ffffff);
+    }
+    56%{
+        transform: translateX(-200%);
+        background-image: linear-gradient(to left top, #b8b7b7 20%,#ffffff);
+    }
+    60%{
+        transform: translateX(-300%);
+        background-image: linear-gradient(to left top, #9b8f81 20%,#848486);
+    }
+    76%{
+        transform: translateX(-300%);
+        background-image: linear-gradient(to left top, #9b8f81 20%,#848486);
+    }
+    80%{
+        transform: translateX(-400%);
+        background-image: linear-gradient(to left top, #9e3028 20%,#bababa);
+    }
+    96%{
+        transform: translateX(-400%);
+        background-image: linear-gradient(to left top, #9e3028 20%,#bababa);
+    }
+    100%{
+        transform: translateX(0);
+        background-image: linear-gradient(to left top, #125282 20%,#cec8ff);
+    }
+}
+
+@keyframes background4{
+    0%{
+        background-image: linear-gradient(to left top, #125282 20%,#cec8ff);
+    }
+    16%{
+        background-image: linear-gradient(to left top, #125282 20%,#cec8ff);
+    }
+    20%{
+        background-image: linear-gradient(to left top, #e2c0a7 20%,#ffffff);
+    }
+    36%{
+        background-image: linear-gradient(to left top, #e2c0a7 20%,#ffffff);
+    }
+    40%{
+        background-image: linear-gradient(to left top, #b8b7b7 20%,#ffffff);
+    }
+    56%{
+        background-image: linear-gradient(to left top, #b8b7b7 20%,#ffffff);
+    }
+    60%{
+        background-image: linear-gradient(to left top, #9b8f81 20%,#555f4f);
+    }
+    76%{
+        background-image: linear-gradient(to left top, #9b8f81 20%,#555f4f);
+    }
+    80%{
+        background-image: linear-gradient(to left top, #9e3028 20%,#bababa);
+    }
+    96%{
+        background-image: linear-gradient(to left top, #9e3028 20%,#bababa);
+    }
+    100%{
+        background-image: linear-gradient(to left top, #125282 20%,#cec8ff);
+    }
+}
