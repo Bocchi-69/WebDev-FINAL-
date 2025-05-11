@@ -19,7 +19,10 @@
     height: 35px;
 }
 
-
+.icon-cart{
+  color: #ffffff;
+  cursor: pointer;
+}
 
 .nav-links{
     display: flex;

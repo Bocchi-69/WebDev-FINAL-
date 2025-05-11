@@ -2,6 +2,8 @@
 @import 'button.css';
 @import 'product-card.css';
 @import 'banner.css';
+@import 'cart-tab.css';
+@import 'payment.css';
 /* SECTIONS */
 @import 'navbar.css';
 @import 'section1.css';

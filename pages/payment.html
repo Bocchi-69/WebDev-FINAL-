@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="../assets/styles/style.css">
+</head>
+<body>
+      <header id="header">
+        <nav class="navbar-container">
+          <input type="checkbox" class="menu-toggle" id="menu-toggle">
+          <label for="menu-toggle" class="menu-btn">☰</label>
+          <a href="../index.html"><img src="../assets/images/nike white logo.webp" alt="logo" class="logo"> </a>
+          <ul class="nav-links">
+            <li><a href="./index.html">FIND A STORE</a></li>
+            <li><a href="./pages/about.html">HELP</a></li>
+            <li><a href="./pages/services.html">FOLLOW US</a></li>
+          </ul>
+          <div class="icon-cart">
+        </nav>
+    </header>
+    <div class="payment-container">
+        <form action="">
+            <div class="payment-row">
+                <!-- Billing Information -->
+                <div class="payment-column">
+                    <h3 class="payment-title">Billing Adress</h3>
+                    
+                    <div class="input-box">
+                        <span>Full Name :</span>
+                        <input type="text" placeholder="First Name Last Name">
+                    </div>
+
+                      
+                    <div class="input-box">
+                        <span>Email :</span>
+                        <input type="email" placeholder="exmaple@gmail.com">
+                    </div>
+
+                      
+                    <div class="input-box">
+                        <span>Adress :</span>
+                        <input type="text" placeholder="Street Adress">
+                    </div>
+
+                    
+                    <div class="input-box">
+                        <span>City :</span>
+                        <input type="text" placeholder="City name (e.g., Tokyo)">
+                    </div>
+
+
+                    <div class="flex">
+                         <div class="input-box">
+                            <span>State :</span>
+                            <input type="text" placeholder="Enter your state">
+                        </div>
+
+                          <div class="input-box">
+                            <span>ZIP Code :</span>
+                            <input type="number" placeholder="Enter ZIP code">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Payment Methods -->
+                <div class="payment-column">
+                    <h3 class="payment-title">Payment</h3>
+                    
+                    <div class="input-box">
+                        <span>Cards Accepted</span>
+                        <img src="../assets/images/imgcards.png" alt="">
+                    </div>
+
+                      
+                    <div class="input-box">
+                        <span>Name on Card: </span>
+                        <input type="email" placeholder="Enter Credit Card Name">
+                    </div>
+
+                      
+                    <div class="input-box">
+                        <span>Credit Card Number :</span>
+                        <input type="number" placeholder="•••• •••• •••• ••••">
+                    </div>
+
+                    
+                    <div class="input-box">
+                        <span>Exp. Month :</span>
+                        <input type="month" placeholder="January">
+                    </div>
+
+
+                    <div class="flex">
+                         <div class="input-box">
+                            <span>Exp. Year :</span>
+                            <input type="number" placeholder="2025">
+                        </div>
+
+                          <div class="input-box">
+                            <span>CVV :</span>
+                            <input type="number" placeholder="123">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" class="payment-btn" onclick="location.href = 'paymentmessage.html'">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

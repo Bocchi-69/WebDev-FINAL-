@@ -5,20 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <link rel="stylesheet" href="./assets/styles/style.css">
+    <script src="https://kit.fontawesome.com/1acfdd8e0d.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="">
     <!-- HEADER (NAVBAR) -->
-    <header id="header">
+     <header id="header">
         <nav class="navbar-container">
           <input type="checkbox" class="menu-toggle" id="menu-toggle">
           <label for="menu-toggle" class="menu-btn">☰</label>
-          <a href="./index.html"><img src="./assets/images/nike white logo.webp" alt="logo" class="logo"></a>
+          <a href="../index.html"><img src="../assets/images/nike white logo.webp" alt="logo" class="logo"> </a>
           <ul class="nav-links">
             <li><a href="./index.html">FIND A STORE</a></li>
             <li><a href="./pages/about.html">HELP</a></li>
             <li><a href="./pages/services.html">FOLLOW US</a></li>
-            <li><a href="./pages/contact.html">SIGN IN</a></li>
           </ul>
+          <div class="icon-cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
         </nav>
     </header>
     
@@ -41,8 +44,6 @@
             <div class="item5">Built for everyone...</div>
           </div>
         </section>
-     </main>
-
      <!-- SECTION 3 -->
      <section id="section3">
       <div class="section3-container">
@@ -107,5 +108,39 @@
     <footer id="footer">
       <p>&copy; 2025 Nike Fan Site. All rights reserved.</p>
     </footer>
+    </main>
+    <div class="cart-tab">
+         <h1>Your Cart</h1>
+         <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+
+        <div class="listcart">
+            <!-- <div class="item">
+              <div class="image">
+                <img src="../assets/images/WHAT'S NEW IMAGES/AIR+MAX+DN8-removebg-preview.png" alt="AIRMAXDN8">
+              </div>
+              <div class="name">
+                AIRMAXDN8
+              </div>
+              <div class="price">$99.99</div>
+              <div class="quantity">
+                <input class="cart-quantity-input" type="number" value="1">
+              </div>
+              <button class="btn-remove">Remove</button>
+              </div> -->
+            </div>
+            <div class="btn">
+              <button class="close-btn">Close</button>
+              <button class="purchase-btn" onclick="location.href = 'payment.html'">
+                    <div class="cart-total-title">Total</div>
+                    <div class="cart-total-price">$0</div>
+              </button>
+            </div>
+        </div>
+     
+  <script src="./assets/styles/script.js"></script>
 </body>
 </html>
