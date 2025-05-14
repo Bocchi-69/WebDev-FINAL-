@@ -81,3 +81,16 @@ form .payment-row{
 .input-box img {
    height: 34px;
 }
+
+.payment-submit{
+    width: 100%;
+    padding: 15px;
+    background-color: #333333;
+    color: #e8e8e8;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.2s ease;
+}

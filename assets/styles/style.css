@@ -5,6 +5,7 @@
 @import 'cart-tab.css';
 @import 'payment.css';
 /* SECTIONS */
+@import 'homepage.css';
 @import 'navbar.css';
 @import 'section1.css';
 @import 'section2.css';
@@ -14,6 +15,10 @@
 @import 'vomero.css';
 @import 'basketball.css';
 @import 'jordans.css';
+@import 'findastore.css';
+@import 'help.css';
+@import 'contact-us.css';
+@import 'contact-msg.css';
 @import 'footer.css';
 
 @font-face {

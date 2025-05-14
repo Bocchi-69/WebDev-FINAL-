@@ -1,0 +1,62 @@
+@font-face {
+    font-family:'poppins-reg';
+    src: url(./Poppins-Regular.ttf);
+}
+@font-face {
+    font-family:'poppins-semi';
+    src: url(./Poppins-SemiBold.ttf);
+}
+.contact-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Times New Romans';
+    padding: 25px;
+    color: #ffff;
+}
+
+.contact-container form{
+    width: 700px;
+    padding: 40px;
+    background-color: #ffff;
+    border-radius: 10px;
+}
+.contact-input-box{
+    margin: 15px 0;   
+}
+
+.contact-input-box input{
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #0a0a0a;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.contact-input-box span{
+    display: block;
+    margin-bottom: 10px;
+    color: #0a0a0a;
+    font-size: 20px;    
+    margin-top: 20px;
+    font-family: 'poppins-reg';
+}
+.contact-title{
+    font-family: 'poppins-semi';
+    font-size: 25px;
+    color: #333333;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.contact-input-box{
+    margin: 10px 0;   
+}
+
+.contact-input-box textarea {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #0a0a0a;
+    border-radius: 5px;
+    font-size: 15px;
+}

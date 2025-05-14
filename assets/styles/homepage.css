@@ -1,0 +1,230 @@
+@font-face {
+    font-family: 'poppins-mid';
+    src: url(./Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'poppins-reg';
+    src: url(./Poppins-Regular.ttf);
+}
+/* SECTION 1 */
+#home-section1{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.home-sect1-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.home-img-banner img {
+  width: 80%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.home-title{
+    color: #fff;
+    text-align: center;
+    font-size: 6rem;
+    margin-top: 20px;
+}
+
+.home-sect1-container .home-btn{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-decoration: none;
+   font-size: 2rem;
+   padding: 10px 40px;
+   margin-top: 20px;
+}
+
+/* SECTION 2 */
+#home-section2{
+    display: flex; 
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.home-sect2-container {
+    padding-top: 250px;
+}
+.sect2-text-block {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    color: #fff;
+}
+.sect2-text{
+    color: #fff;
+    font-size: 3rem;
+    font-family: 'poppins-mid';
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.home-description{
+    font-size: 2rem;
+    font-family: 'poppins-reg';
+    margin-top: 50px;
+}
+
+/* SECTION 3 */
+#home-section3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    padding-top: 150px;
+}
+.home-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    background-image: linear-gradient(to left top, #5c3619 20%,#e36200);
+    text-align: center;
+    border-radius: 20px;
+}
+.home-card img{
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+}
+.home-card a{
+    text-decoration: none;
+    color: #ffff;
+    opacity: 0.8;
+    font-size: 60px;
+}
+.home-card:hover{
+  transform: scale(1.05);
+  transition: 0.5s;
+} 
+.home-card:hover .card-image{
+  transform: rotate(-10deg) scale(1.1);
+  transition: 1s;
+}
+.home-card a:hover{
+  opacity: 1;
+} 
+.cards-wrapper {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap; 
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card2{
+     background-image: linear-gradient(to left top, #5c1919 20%,#e30000);
+}
+
+.card3{
+    background-image: linear-gradient(to left top, #e63333 20%,#f698ae);
+}
+
+.card4{
+    background-image: linear-gradient(to left top, #9b8f81 20%,#555f4f);
+}
+
+.card5{
+     background-image: linear-gradient(to left top, #c4bfb9 20%,#cccccc);
+}
+
+.card6{
+     background-image: linear-gradient(to left top, #c4bfb9 20%,#cccccc);
+}
+@media only screen and (max-width: 1024px){
+    .sect2-text{
+        font-size: 3rem;
+    }
+    .home-description{
+        font-size: 2rem;
+    }
+    .home-sect2-container{
+        margin-top: 300px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .sect2-text{
+        font-size: 3rem;
+    }
+    .home-description{
+        font-size: 2rem;
+    }
+    .home-sect2-container{
+        margin-top: 250px;
+    }
+    .home-card{
+        width: 300px;
+    }
+}
+@media only screen and (max-width: 640px){
+    .sect2-text{
+        font-size: 40px;
+    }
+    .home-description{
+        font-size: 20px;
+    }
+    .home-title{
+        font-size: 60px;
+    }
+    .home-sect2-container{
+        margin-top: 0;
+    }
+    .home-card{
+        width: 250px;
+    }
+}
+@media only screen and (max-width: 420px){
+    .sect2-text{
+        font-size: 35px;
+    }
+    .home-description{
+        font-size: 20px;
+    }
+    .home-title{
+        font-size: 50px;
+    }
+    .home-sect1-container .home-btn{
+        font-size: 35px;
+    }
+    .home-sect2-container{
+        margin-top: 0;
+    }
+    .home-sect1-container .home-btn{
+        font-size: 20px;
+    }
+    .home-sect1-container{
+        padding-top: 100px;
+    }
+    .home-sect2-container{
+        padding-top: 100px;
+    }
+    .cards-wrapper{
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 350px){
+    .sect2-text{
+        font-size: 33px;
+    }
+    .home-description{
+        font-size: 18px;
+    }
+    .home-title{
+        font-size: 43px;
+    }
+      .home-sect1-container .home-btn{
+        font-size: 25px;
+    }
+}

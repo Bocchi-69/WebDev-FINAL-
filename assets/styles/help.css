@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'poppins-reg';
+    src: url(./Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: 'poppins-semi';
+    src: url(./Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'bebas-nue';
+    src: url(./BebasNeue-Regular.ttf);
+}
+#header li{
+    font-family: 'bebas-nue';
+}
+ul{
+    color: #fff;
+    font-family: 'poppins-semi';
+}
+ul p{
+    font-family: 'poppins-reg';
+}
+#accordion{
+    margin: 25px auto;
+    width: 600px;
+}
+#accordion li{
+    list-style: none;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #161616;
+    border-radius: 10px;
+}
+#accordion li label{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer ;
+}
+#accordion li label span{
+    transform: rotate(90deg);
+    font-size: 22px;
+}
+#accordion li label + input[type="radio"]{
+    display: none;
+}
+#accordion .help-content{
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.6s;
+}
+#accordion label + input[type="radio"]:checked + .help-content{  
+    max-height: 400px;
+}
+.faq{
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
