@@ -1,9 +1,5 @@
-@font-face {
-    font-family: 'poppins';
-    src: url(./Poppins-SemiBold.ttf);
-}
-.banner-container{
-    background-color: rgb(215, 215, 215);
+.jordan-banner-container{
+    background-image: linear-gradient(to left top, #972e2e 20%,#aaaaaa);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,61 +7,62 @@
     padding: 60px;
     margin: 40px;
 }
-.headline{
+.jordan-headline{
     font-size: 4rem;
+    color: #ffffff;
 }
-.sub-headline{
+.jordan-sub-headline{
     font-size: 1rem;
     font-family: 'poppins';
     text-align: center;
+    color: #EDEDED;
 }
-/* PRODUCTS */
-.card-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 300px);
-    justify-content: center;
-    min-height: 100vh;
-    gap: 30px;
+/* PRODUCT COLORS */
+.jordan1{
+    background-image: linear-gradient(to left top, #d2d0d3 20%,#9a4854);
+    color: #000000;
 }
-.product-card{
-    width: 300px;
-    background-color: #a3a3a3;
-    border-radius: 15px;
-    overflow: hidden;
+.jordan2{
+    background-image: linear-gradient(to left top, #b8b8ba 20%,#b3bdc7);
+    color: #000000;
 }
-.product-card:hover{
-    transition: 0.5s ease;
-    transform: scale(1.05)
+.jordan3{
+    background-image: linear-gradient(to left top, #a7a6ab 20%,#7f7e83);
+    color: #000000;
 }
-.product-content{
-    padding: 20px;
+.jordan4{
+    background-image: linear-gradient(to left top, #c5c3c8 20%,#175584);
+    color: #000000;
 }
-.product-image{
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
+.jordan5{
+    background-image: linear-gradient(to left top, #cac6c3 20%,#b18d69);
+    color: #000000;
 }
-.product-card:hover .product-image{
-    transition: 0.5s ease;
-    transform: rotate(-10deg) scale(1.05);
+.jordan6{
+    background-image: linear-gradient(to left top, #e7e7e7 20%,#b6b6b6);
+    color: #000000;
 }
-.product-title{
-    margin: 10px 5px;
-    text-align: center;
-    font-size: 2rem;
+.jordan7{
+    background-image: linear-gradient(to left top, #b6b7bc 20%,#656567);
+    color: #000000;
 }
-.product-price{
-    margin: 10px 10px;
-    font-size: 2rem;
-    font-weight: bold;
-    text-align: center;
+.jordan8{
+    background-image: linear-gradient(to left top, #e7e3e0 20%,#9b2545);
+    color: #000000;
 }
-.product-button{
-    display: block;
-    width: 100%;
-    padding: 1rem;
+.jordan9{
+    background-image: linear-gradient(to left top, #1f1e20 20%,#cb0a31);
+    color: #000000;
 }
-.add-to-cart{
-    margin: 1rem 0;
-    background-color: #fff;
+.jordan10{
+    background-image: linear-gradient(to left top, #e3e6ed 20%,#005d93);
+    color: #000000;
+}
+.jordan11{
+    background-image: linear-gradient(to left top, #e3e4e8 20%,#cdccd1);
+    color: #000000;
+}
+.jordan12{
+    background-image: linear-gradient(to left top, #b9b8b3 20%,#51685e);
+    color: #000000;
 }

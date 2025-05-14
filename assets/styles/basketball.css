@@ -1,9 +1,5 @@
-@font-face {
-    font-family: 'poppins';
-    src: url(./Poppins-SemiBold.ttf);
-}
-.banner-container{
-    background-color: rgb(215, 215, 215);
+.basketball-banner-container{
+    background-image: linear-gradient(to left top, #5d5e5e 20%,#cfcfcf);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,61 +7,62 @@
     padding: 60px;
     margin: 40px;
 }
-.headline{
+.basketball-headline{
     font-size: 4rem;
+    color: #ffffff;
 }
-.sub-headline{
+.basketball-sub-headline{
     font-size: 1rem;
     font-family: 'poppins';
     text-align: center;
+    color: #EDEDED;
 }
-/* PRODUCTS */
-.card-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 300px);
-    justify-content: center;
-    min-height: 100vh;
-    gap: 30px;
+/* PRODUCT COLORS */
+.BASKET1{
+    background-image: linear-gradient(to left top, #656469 20%,#18181a);
+    color: #000000;
 }
-.product-card{
-    width: 300px;
-    background-color: #a3a3a3;
-    border-radius: 15px;
-    overflow: hidden;
+.BASKET2{
+    background-image: linear-gradient(to left top, #d8d9db 20%,#afb0b4);
+    color: #000000;
 }
-.product-card:hover{
-    transition: 0.5s ease;
-    transform: scale(1.05)
+.BASKET3{
+    background-image: linear-gradient(to left top, #979c98 20%,#fd7db0);
+    color: #000000;
 }
-.product-content{
-    padding: 20px;
+.BASKET4{
+    background-image: linear-gradient(to left top, #b5b5bd 20%,#6f6f6f);
+    color: #000000;
 }
-.product-image{
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
+.BASKET5{
+    background-image: linear-gradient(to left top, #a6b6a9 20%,#76af7a);
+    color: #000000;
 }
-.product-card:hover .product-image{
-    transition: 0.5s ease;
-    transform: rotate(-10deg) scale(1.05);
+.BASKET6{
+    background-image: linear-gradient(to left top, #ccd6df 20%,#6f7d88);
+    color: #000000;
 }
-.product-title{
-    margin: 10px 5px;
-    text-align: center;
-    font-size: 2rem;
+.BASKET7{
+    background-image: linear-gradient(to left top, #d2d1bc 20%,#999da0);
+    color: #000000;
 }
-.product-price{
-    margin: 10px 10px;
-    font-size: 2rem;
-    font-weight: bold;
-    text-align: center;
+.BASKET8{
+    background-image: linear-gradient(to left top, #cccccc 20%,#858587);
+    color: #000000;
 }
-.product-button{
-    display: block;
-    width: 100%;
-    padding: 1rem;
+.BASKET9{
+    background-image: linear-gradient(to left top, #bcdf83 20%,#5a9893);
+    color: #000000;
 }
-.add-to-cart{
-    margin: 1rem 0;
-    background-color: #fff;
+.BASKET10{
+    background-image: linear-gradient(to left top, #e2e2e2 20%,#b6b4b5);
+    color: #000000;
+}
+.BASKET11{
+    background-image: linear-gradient(to left top, #bbb5a9 20%,#99be8a);
+    color: #000000;
+}
+.BASKET12{
+    background-image: linear-gradient(to left top, #c8b9be 20%,#b06955);
+    color: #000000;
 }

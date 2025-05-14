@@ -1,0 +1,68 @@
+.vomero-banner-container{
+    background-image: linear-gradient(to left top, #608e83 20%,#19eee7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    margin: 40px;
+}
+.vomero-headline{
+    font-size: 4rem;
+    color: #EDEDED;
+}
+.vomero-sub-headline{
+    font-size: 1rem;
+    font-family: 'poppins';
+    text-align: center;
+    color: #EDEDED;
+}
+/* PRODUCT COLORS */
+.VOMERO1{
+    background-image: linear-gradient(to left top, #e5b9b6 20%,#a43c33);
+    color: #000000;
+}
+.VOMERO2{
+    background-image: linear-gradient(to left top, #e0f3b1 20%,#e16a28);
+    color: #000000;
+}
+.VOMERO3{
+    background-image: linear-gradient(to left top, #424242 20%,#1f1f21);
+    color: #000000;
+}
+.VOMERO4{
+    background-image: linear-gradient(to left top, #afaaa4 20%,#886d5a);
+    color: #000000;
+}
+.VOMERO5{
+    background-image: linear-gradient(to left top, #e3e0d9 20%,#0c0a0d);
+    color: #000000;
+}
+.VOMERO6{
+    background-image: linear-gradient(to left top, #a0bd91 20%,#2a9507);
+    color: #000000;
+}
+.VOMERO7{
+    background-image: linear-gradient(to left top, #abd6cc 20%,#00afaa);
+    color: #000000;
+}
+.VOMERO8{
+    background-image: linear-gradient(to left top, #9b93bc 20%,#8ca760);
+    color: #000000;
+}
+.VOMERO9{
+    background-image: linear-gradient(to left top, #ddd0bd 20%,#ab9776);
+    color: #000000;
+}
+.VOMERO10{
+    background-image: linear-gradient(to left top, #959192 20%,#1c1819);
+    color: #000000;
+}
+.VOMERO11{
+    background-image: linear-gradient(to left top, #e5b9b6 20%,#a43c33);
+    color: #000000;
+}
+.VOMERO12{
+    background-image: linear-gradient(to left top, #9097aa 20%,#112f37);
+    color: #000000;
+}
