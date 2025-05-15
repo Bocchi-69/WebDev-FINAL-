@@ -22,7 +22,7 @@ ul p{
 }
 #accordion{
     margin: 25px auto;
-    width: 600px;
+    width: 600px auto;
 }
 #accordion li{
     list-style: none;

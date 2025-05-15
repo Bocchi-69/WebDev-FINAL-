@@ -66,3 +66,12 @@
     background-image: linear-gradient(to left top, #c8b9be 20%,#b06955);
     color: #000000;
 }
+
+@media only screen and (max-width: 425px){
+    .basketball-headline{
+        font-size: 3rem;
+    }
+    .basketball-    sub-headline{
+        font-size: 20px;
+    }
+}

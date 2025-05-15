@@ -19,3 +19,12 @@
     font-family: 'poppins';
     text-align: center;
 }
+
+@media only screen and (max-width: 425px){
+    .headline{
+        font-size: 3rem;
+    }
+    .sub-headline{
+        font-size: 20px;
+    }
+}
